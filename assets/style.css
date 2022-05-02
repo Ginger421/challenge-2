@@ -1,0 +1,82 @@
+* {
+    font-family: cursive;
+    font-size: medium;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: purple;
+    color: teal;
+    height: 100px;
+    width: 100%;
+    border: 5px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+header ul {
+    position: absolute;
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    right: 10px;
+    top: 47%;
+    width: fit-content;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: inline;
+    margin: 3px;
+    border: 2px solid;
+    padding: 2px;
+}
+
+#about-me {
+    display: flex;
+}
+
+#bio{
+    flex: 8;
+}
+
+#me{
+    flex: 4;
+    border: 3 double darkblue;
+}
+
+img{
+    width: 100%;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#apps {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#first {
+    flex: 5;
+}
+
+.img {
+    max-width: 100%;
+    flex: 3.5;
+}
+
+h2 {
+    text-align: center;
+}
